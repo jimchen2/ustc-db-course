@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { Form, Button, Alert } from "react-bootstrap";
+import { backendUrl } from "../../config";
 
 const PaperForm = ({ onPaperAdded }) => {
   const [name, setName] = useState("");

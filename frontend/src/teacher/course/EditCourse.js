@@ -42,7 +42,7 @@ const EditCourse = () => {
     try {
       const token = localStorage.getItem("token");
       await axios.put(
-        `${backendurl}I/teachercourses/${courseId}`,
+        `${backendUrl}I/teachercourses/${courseId}`,
         {
           year: parseInt(year),
           term: parseInt(term),
